@@ -34,6 +34,12 @@
 живой базе плюс RUNBOOK для дежурного.
 `Python` `FastAPI` `PostgreSQL` `Docker`
 
+**[eskd-spec-generator](https://github.com/sfilippov-dev/eskd-spec-generator)**
+Спецификация по ГОСТ 2.106 из состава изделия: PDF с рамкой и основной надписью,
+DOCX для правок и нормоконтроль состава до выпуска документа. Три года оформления
+КД, сведённые в набор автоматических проверок.
+`Python` `reportlab` `ГОСТ ЕСКД`
+
 **[marketplace-sql-warehouse](https://github.com/sfilippov-dev/marketplace-sql-warehouse)**
 Витрина данных маркетплейса на PostgreSQL: схема «звезда», 788 тысяч строк
 воспроизводимых данных, 15 аналитических запросов с оконными функциями и
