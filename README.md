@@ -27,6 +27,13 @@
 ходит в сеть.
 `Python` `httpx` `asyncio` `SQLite`
 
+**[stock-sync-service](https://github.com/sfilippov-dev/stock-sync-service)**
+Сервис синхронизации остатков: FastAPI и PostgreSQL. Повторный вебхук не двигает
+остаток второй раз, любая партия правок откатывается одной командой, событие для
+внешних систем пишется в той же транзакции, что и само изменение. 38 тестов на
+живой базе плюс RUNBOOK для дежурного.
+`Python` `FastAPI` `PostgreSQL` `Docker`
+
 **[marketplace-sql-warehouse](https://github.com/sfilippov-dev/marketplace-sql-warehouse)**
 Витрина данных маркетплейса на PostgreSQL: схема «звезда», 788 тысяч строк
 воспроизводимых данных, 15 аналитических запросов с оконными функциями и
