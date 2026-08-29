@@ -20,6 +20,13 @@
 без единой внешней загрузки.
 `Python` `Decimal` `SVG`
 
+**[api-metrics-collector](https://github.com/sfilippov-dev/api-metrics-collector)**
+Сбор метрик из чужих REST API: маркерное ведро вместо повторов после 429, паузы
+с разбросом, проверка схемы и идемпотентная запись. Каркас, к которому новый
+источник добавляется одним классом на тридцать строк. 65 тестов, ни один не
+ходит в сеть.
+`Python` `httpx` `asyncio` `SQLite`
+
 **[marketplace-sql-warehouse](https://github.com/sfilippov-dev/marketplace-sql-warehouse)**
 Витрина данных маркетплейса на PostgreSQL: схема «звезда», 788 тысяч строк
 воспроизводимых данных, 15 аналитических запросов с оконными функциями и
