@@ -36,9 +36,11 @@
 
 ### Чем работаю
 
-Python, FastAPI, SQLAlchemy, PostgreSQL, Redis, Docker, Linux, Git
-SQL, Power BI, 1С, Excel и Google Таблицы
-REST API, Telegram Bot API, Postman, Jira
+**Бэкенд:** Python, FastAPI, SQLAlchemy, PostgreSQL, Redis, Docker, Linux, Git
+
+**Данные:** SQL, Power BI, 1С, Excel и Google Таблицы
+
+**Интеграции:** REST API, Telegram Bot API, Postman, Jira
 
 ### Связаться
 
